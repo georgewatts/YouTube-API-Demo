@@ -189,7 +189,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 // Loop through all search results and keep just the necessary data.
                 
                 for dict in items {
-                    let snippetDict = dict["snippet"]// as Dictionary<String, String>
+                    let _ = dict["snippet"]// as Dictionary<String, String>
                     
                     
                     
