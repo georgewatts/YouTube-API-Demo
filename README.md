@@ -1,10 +1,12 @@
-#A simple iOS demo for YouTube API
+## A simple iOS demo for YouTube API
 
 ---
-❗️ Updated to Swift 3 - Currently no plans to update to Swift 4 but I am hoping to do it eventually. I've tried to keep the format of the file the same, most of the broken code is just commented out so you can see the changes.
+Updated to be compatible with Swift 4. There are still issues with layouts and functions, however the core YouTube video functionality has been updated.
 
-~George Watts
-
+My next objectives:
+* Tidy up the layout to stop errors in the console
+* Change the aspect ratio of the YTPlayerView
+* Create an instance of YTPlayerView delegate and demonstrate the delegate functions
 ---
 
 This is a simple demo that shows you how to integrate your app with YouTube API. You can 
@@ -13,5 +15,6 @@ find the full tutorial here:
 http://www.appcoda.com/youtube-api-ios-tutorial
 
 To run the demo, you will need to create your own API key first and update the following line of code in ViewController.swift:
-
-  var apiKey = "YOUR_API_KEY_HERE"
+```swift
+var apiKey = "YOUR_API_KEY_HERE"
+```
